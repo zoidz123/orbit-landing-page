@@ -14,7 +14,7 @@ body {
   font-size: 22px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* display: inline-block; */
-  max-width: 55%;
+  /* max-width: 55%; */
   font-weight: 700px;
 }
 
@@ -40,9 +40,17 @@ body {
   margin-top: 1em;
   display: flex;
   align-items: center;
-  max-width: 55%;
+  /* max-width: 55%; */
 }
 
 .tag--box {
   margin-top: 1em;
+}
+
+.big--wrapper {
+  max-width: 60%;
+}
+
+.small--wrapper {
+  max-width: 100%;
 }
